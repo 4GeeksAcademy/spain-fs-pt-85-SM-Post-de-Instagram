@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+.wrapper{
+    margin: auto;
+    margin-top: 8%;
+    width: 33%;
+    background-color: white;
+}
+
+.header{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px; 
+}
+
+img {
+    width: 100%;
+}
+
+.footer {
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+}
+
+.footer-text{
+    padding: 0px 10px 10px 10px;
+}
